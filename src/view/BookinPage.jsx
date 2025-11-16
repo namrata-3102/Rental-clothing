@@ -29,7 +29,7 @@ function BookingPage() {
             </p>
             <button
               onClick={() => navigate("/")}
-              className="bg-violet-700 text-white px-6 py-3 rounded-lg hover:bg-violet-800 transition duration-300 font-medium shadow-md"
+              className="bg-slate-700 text-white px-6 py-3 rounded-lg hover:bg-slate-800 transition duration-300 font-medium shadow-md"
             >
               Go to Home
             </button>
@@ -45,7 +45,7 @@ function BookingPage() {
       <Navbar />
       <div className="flex-grow flex items-center justify-center">
         <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-lg">
-          <h2 className="text-3xl font-bold text-violet-700 text-center mb-6">
+          <h2 className="text-3xl font-bold text-slate-800 text-center mb-6">
             Booking Confirmed 🎉
           </h2>
 
@@ -81,7 +81,7 @@ function BookingPage() {
           <div className="flex justify-center mt-6">
             <button
               onClick={() => navigate("/")}
-              className="bg-violet-700 text-white px-6 py-3 rounded-lg cursor-pointer hover:bg-violet-800 transition duration-300 font-medium shadow-md"
+              className="bg-slate-700 text-white px-6 py-3 rounded-lg cursor-pointer hover:bg-slate-800 transition duration-300 font-medium shadow-md"
             >
               Go to Home
             </button>

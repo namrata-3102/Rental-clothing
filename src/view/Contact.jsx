@@ -6,7 +6,7 @@ function Contact() {
     <div className="min-h-screen bg-gray-50 py-12 px-6 flex flex-col items-center">
       <div className="max-w-4xl w-full bg-white shadow-xl rounded-2xl p-8">
         
-        <h1 className="text-4xl font-bold text-violet-700 text-center mb-4">
+        <h1 className="text-4xl font-bold text-slate-800 text-center mb-4">
           Contact Us
         </h1>
         <p className="text-center text-gray-600 mb-10">
@@ -21,26 +21,26 @@ function Contact() {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-violet-500 outline-none"
+              className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-slate-500 outline-none"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-violet-500 outline-none"
+              className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-slate-500 outline-none"
             />
             <input
               type="text"
               placeholder="Subject"
-              className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-violet-500 outline-none"
+              className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-slate-500 outline-none"
             />
             <textarea
               placeholder="Your Message"
               rows="5"
-              className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-violet-500 outline-none"
+              className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-slate-500 outline-none"
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-violet-600 text-white py-3 rounded-xl font-semibold hover:bg-violet-700 transition"
+              className="w-full bg-slate-700 text-white py-3 rounded-xl font-semibold hover:bg-slate-800 transition"
             >
               Send Message
             </button>
@@ -49,15 +49,15 @@ function Contact() {
       
           <div className="flex flex-col justify-center space-y-6">
             <div className="flex items-center gap-4">
-              <MapPin className="text-violet-600 w-6 h-6" />
+              <MapPin className="text-slate-700 w-6 h-6" />
               <p className="text-gray-700">123 Clothing Lane, Mumbai, India</p>
             </div>
             <div className="flex items-center gap-4">
-              <Phone className="text-violet-600 w-6 h-6" />
+              <Phone className="text-slate-700 w-6 h-6" />
               <p className="text-gray-700">+91 98765 43210</p>
             </div>
             <div className="flex items-center gap-4">
-              <Mail className="text-violet-600 w-6 h-6" />
+              <Mail className="text-slate-700 w-6 h-6" />
               <p className="text-gray-700">support@clothingshop.com</p>
             </div>
           </div>

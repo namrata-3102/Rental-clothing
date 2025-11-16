@@ -17,7 +17,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹850/month",
         rating: 4.8,
         category: "ethnic",
-        imageUrl: [Img1, Img2, Img3]
+        imageUrl: [Img7, Img8, Img4]
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹1200/month",
         rating: 4.6,
         category: "formal",
-        imageUrl: [Img2, Img4]
+        imageUrl: [Img5, Img1]
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹1500/month",
         rating: 4.7,
         category: "evening",
-        imageUrl: [Img3, Img6]
+        imageUrl: [Img8, Img2]
     },
     {
         id: 4,
@@ -44,7 +44,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹400/month",
         rating: 4.4,
         category: "casual",
-    imageUrl:[Img4, Img1]
+    imageUrl:[Img6, Img3]
     },
     {
         id: 5,
@@ -53,7 +53,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹1000/month",
         rating: 4.9,
         category: "ethnic",
-    imageUrl: [Img5, Img2]
+    imageUrl: [Img3, Img7]
     },
     {
         id: 6,
@@ -62,7 +62,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹250/month",
         rating: 4.3,
         category: "formal",
-    imageUrl: [Img6, Img3]
+    imageUrl: [Img1, Img8]
     },
     {
         id: 7,
@@ -71,7 +71,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹1800/month",
         rating: 4.8,
         category: "ethnic",
-    imageUrl:[  Img7, Img5]
+    imageUrl:[  Img4, Img2]
     },
     {
         id: 8,
@@ -80,7 +80,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹300/month",
         rating: 4.2,
         category: "casual",
-    imageUrl: [ Img6, Img3, Img4]
+    imageUrl: [ Img2, Img5, Img7]
     },
     {
         id: 9,
@@ -89,7 +89,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹900/month",
         rating: 4.5,
         category: "evening",
-    imageUrl:[Img3, Img5, Img6]
+    imageUrl:[Img6, Img8, Img4]
     },
     {
         id: 10,
@@ -98,7 +98,7 @@ const CLOTHING_CONFIG = [
         rentalPrice: "₹350/month",
         rating: 4.4,
         category: "kids",
-    imageUrl:[Img4, Img6, Img1]
+    imageUrl:[Img7, Img3, Img1]
     }
   
 ];

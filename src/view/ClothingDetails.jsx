@@ -66,7 +66,7 @@ function ClothingDetails() {
               alt={`Thumbnail ${index + 1}`}
               className={`w-24 h-24 object-cover rounded-md cursor-pointer border-2 shadow-sm transition-all ${
                 index === currentImageIndex
-                  ? "border-violet-600 scale-105"
+                  ? "border-slate-700 scale-105"
                   : "border-transparent hover:scale-105"
               }`}
               onClick={() => setCurrentImageIndex(index)}
@@ -89,7 +89,7 @@ function ClothingDetails() {
 
     
       <div className="p-8 mx-auto w-full md:w-[800px] bg-white shadow-xl rounded-xl mb-16">
-        <h2 className="text-3xl font-semibold mb-6 text-center text-violet-700">
+        <h2 className="text-3xl font-semibold mb-6 text-center text-slate-800">
           Booking Form
         </h2>
 
@@ -178,14 +178,14 @@ function ClothingDetails() {
           <Link
             to="/book-now"
             onClick={handleSubmit}
-            className="bg-violet-700 text-white px-8 py-3 rounded-lg hover:bg-violet-800 transition-colors duration-300 font-medium shadow-md"
+            className="bg-slate-700 text-white px-8 py-3 rounded-lg hover:bg-slate-800 transition-colors duration-300 font-medium shadow-md"
           >
             Submit Booking
           </Link>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default ClothingDetails;

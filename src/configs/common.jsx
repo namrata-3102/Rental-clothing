@@ -30,22 +30,25 @@ const FEATURES_CONFIG = [
 
 const REVIEW_CONFIG = [
   {
-    name: "Priti Jadhav",
-  review: "Great clothing rental service with a wide selection of stylish and affordable pieces.",
-    rating: 4.5,
-    avatar: "https://i.pravatar.cc/150?img=5"
-  },
-  {
-    name: "John Doe",
-  review: "The quality of the clothing I rented exceeded my expectations. Highly recommend!",
+    name: "Aisha Patel",
+    review: "Loved the Saris I rented — perfect fit and beautiful colors. Customer support was delightful!",
     rating: 5,
-    avatar: "https://i.pravatar.cc/150?img=4"
+    avatar: "https://i.pravatar.cc/150?img=56",
+    color: "#FB7185" // soft pink
   },
   {
-    name: "Jane Smith",
-    review: "Excellent customer service and fast delivery. I'm very satisfied with my purchase.",
+    name: "Michael Reed",
+    review: "Fast delivery and excellent quality. My suit looked as good as new.",
     rating: 4,
-    avatar: "https://i.pravatar.cc/150?img=8",
+    avatar: "https://i.pravatar.cc/150?img=32",
+    color: "#34D399" // emerald green
+  },
+  {
+    name: "Leila Gomez",
+    review: "Very convenient rental experience; the cocktail dress stole the show.",
+    rating: 4,
+    avatar: "https://i.pravatar.cc/150?img=47",
+    color: "#60A5FA" // blue
   }
 ];
 
